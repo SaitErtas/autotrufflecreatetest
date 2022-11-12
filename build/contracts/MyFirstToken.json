@@ -1,0 +1,117 @@
+{
+  "contractName": "MyFirstToken",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/MyFirstToken.sol\":\"MyFirstToken\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/MyFirstToken.sol\":{\"keccak256\":\"0xd8af17fa64035b7d4a10081d23f2eae20c88f2468299f7d5abeefb9db27c6a2c\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://989a0476b9707b0630c99a56d67fec48310699267160ee5ac189146cfcd943ec\",\"dweb:/ipfs/QmZQcJ3JkP1S4rwH1Q75HHYoj95BDGQSnD7yHG7A79L8hL\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea26469706673582212205200a1ead3467265d2557169d2382f985e3dd9be231a89a6fe316772a2ea5f5264736f6c63430008110033",
+  "deployedBytecode": "0x6080604052600080fdfea26469706673582212205200a1ead3467265d2557169d2382f985e3dd9be231a89a6fe316772a2ea5f5264736f6c63430008110033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "66:54:0:-:0;;;92:26;;;;;;;;;;66:54;;;;;;",
+  "deployedSourceMap": "66:54:0:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.22 <0.9.0;\n\ncontract MyFirstToken {\n  constructor() public {\n  }\n}\n",
+  "sourcePath": "c:\\Users\\Sait\\Documents\\GitHub\\ZeppelinProject\\autotrufflecreatetest\\contracts\\MyFirstToken.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/MyFirstToken.sol",
+    "exportedSymbols": {
+      "MyFirstToken": [
+        6
+      ]
+    },
+    "id": 7,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:32:0"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "MyFirstToken",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 6,
+        "linearizedBaseContracts": [
+          6
+        ],
+        "name": "MyFirstToken",
+        "nameLocation": "75:12:0",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 4,
+              "nodeType": "Block",
+              "src": "113:5:0",
+              "statements": []
+            },
+            "id": 5,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nameLocation": "-1:-1:-1",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 2,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "103:2:0"
+            },
+            "returnParameters": {
+              "id": 3,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "113:0:0"
+            },
+            "scope": 6,
+            "src": "92:26:0",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "scope": 7,
+        "src": "66:54:0",
+        "usedErrors": []
+      }
+    ],
+    "src": "32:89:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.17+commit.8df45f5f.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.10",
+  "updatedAt": "2022-11-11T23:38:53.941Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
